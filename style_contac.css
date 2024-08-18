@@ -1,0 +1,71 @@
+body{
+    background-image:url(https://g2z7g2s8.rocketcdn.me/wp-content/uploads/2020/12/cintas-online.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: orange;
+}
+
+/* Estilos para el span del navbar */
+.navbar-text {
+    font-size: 1.5em; /* Ajusta el tamaño según tu preferencia */
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+/* Estilos para la sección "Contactate con Nosotros" */
+.box-info h1 {
+    font-size: 3em; /* Ajusta el tamaño según tu preferencia */
+    margin-bottom: 20px;
+}
+
+.box-info p {
+    font-size: 1.5em; /* Ajusta el tamaño según tu preferencia */
+}
+
+/* Estilos para los iconos de teléfono, correo y ubicación */
+.box-info .fas.fa-phone,
+.box-info .fas.fa-envelope,
+.box-info .fas.fa-map-marker-alt {
+    font-size: 1.5em; /* Ajusta el tamaño según tu preferencia */
+    color: orange;
+    margin-right: 10px;
+}
+
+
+
+/* Estilos para los iconos de redes sociales */
+.box-info .fab {
+    font-size: 1.5em; /* Ajusta el tamaño según tu preferencia */
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}   
+
+
+
+.box-info{
+    background-color: rgba(128, 128, 128, 0.8); /* Fondo gris semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+.btn-container {
+    text-align: center;
+}
+

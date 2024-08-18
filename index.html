@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://ih1.redbubble.net/image.3880202944.8812/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                    alt="" width="80" height="80" class="d-inline-block align-items-center">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacUs.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="navbar-text">PELISESHOLMSERCH</span>
+
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+        <!-- Botones de filtro -->
+        <div class="text-center mb-4">
+            <span class="filter-text">Filtra tu peli aquí</span>
+            <input type="text" id="searchInput" class="form-control  mb-3" placeholder="Buscar película...">
+
+            <span id="searchText" class="search-text"></span> <!-- Muestra las palabras en el placeholder  -->
+
+
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-genre="all">Todos</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="accion">Acción</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="aventura">Aventura</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="comedia">Comedia</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-genre="drama">Drama</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="cienciaficcion">Ciencia Ficción</button>
+        </div>
+
+        <!-- Contenedor de imágenes -->
+        <div class="row" id="movieContainer">
+            <div class="row" id="movieContainer">
+                </div>
+                <!-- Película 5 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="/BATMAN.html">
+                        <img src="https://image.tmdb.org/t/p/w300/74xTEgt7R36Fpooo50r9T25onhq.jpg" alt="BATMAN" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 7 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="Cuentod de Dragones.html">
+                        <img src="https://image.tmdb.org/t/p/w300/yG8QKnaiz7JoIMh3oxdm0JJN6IG.jpg" alt="Cuentos de Dargones" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 9 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="/DUNE II.html">
+                        <img src="https://image.tmdb.org/t/p/w300/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="DUNE II" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 10 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="/">
+                        <img src="https://image.tmdb.org/t/p/w300/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg" alt="AKIRA" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 22 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="/Avatar.html">
+                        <img src="https://image.tmdb.org/t/p/w300/kyeqWdyUXW608qlYkRqosgbbJyK.jpg" alt="Avatar" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 25 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="/Avengers Endgame.html">
+                        <img src="https://image.tmdb.org/t/p/w300/or06FN3Dka5tukK1e9sl16pB3iy.jpg" alt="Avengers Endgame" class="img-fluid movie-img">
+                    </a>
+                </div>
+                
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- FiltroPeliculas JS -->
+        <script src="filtrosPeliculas.js"></script>
+        <footer>Creado por los mejores ES-HOLM-SERCH </footer>
+
+</body>
+
+</html>
