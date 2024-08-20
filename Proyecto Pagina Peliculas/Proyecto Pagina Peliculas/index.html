@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://ih1.redbubble.net/image.3880202944.8812/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                    alt="" width="80" height="80" class="d-inline-block align-items-center">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacUs.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="navbar-text">PELISESHOLMSERCH</span>
+
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+        <!-- Botones de filtro -->
+        <div class="text-center mb-4">
+            <span class="filter-text">Filtra tu peli aquí</span>
+            <input type="text" id="searchInput" class="form-control  mb-3" placeholder="Buscar película...">
+
+            <span id="searchText" class="search-text"></span> <!-- Muestra las palabras en el placeholder  -->
+
+
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-genre="all">Todos</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="accion">Acción</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="aventura">Aventura</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="comedia">Comedia</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn" data-genre="drama">Drama</button>
+            <button type="button" class="btn btn-outline-primary mx-2 mb-2 filter-btn"
+                data-genre="cienciaficcion">Ciencia Ficción</button>
+        </div>
+
+        <!-- Contenedor de imágenes -->
+        <div class="row" id="movieContainer">
+            <div class="row" id="movieContainer">
+                <!-- Película 1 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/JohnWicK4.html">
+                        <img src="imagenesPeliculasIndex/1.png" alt="JHON WICK" class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 2 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/Kun Fu Panda.html">
+                        <img src="imagenesPeliculasIndex/2.png" alt="kun fu panda 4" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 3 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/PoorThings.html">
+                        <img src="imagenesPeliculasIndex/3.png" alt="Pobres Criaturas" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 4 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/La sociendad de la nieve.html">
+                        <img src="imagenesPeliculasIndex/4.png" alt="la sociedad de la nieve"
+                            class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 5 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/BATMAN.html">
+                        <img src="imagenesPeliculasIndex/5.png" alt="BATMAN" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 6 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/Kimetsu No Yaiba.html">
+                        <img src="imagenesPeliculasIndex/6.png" alt="KIMETSU NO YAIBA"
+                            class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 7 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/Cuentod de Dragones.html">
+                        <img src="imagenesPeliculasIndex/7.png " alt="Cuentos de Dargones" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 8-->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/El especialista.html">
+                        <img src="imagenesPeliculasIndex/8.png" alt="El especialista" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 9 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/DUNE II.html">
+                        <img src="imagenesPeliculasIndex/9.png" alt="DUNE II" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 10 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/AKIRA.html">
+                        <img src="imagenesPeliculasIndex/10.png" alt="AKIRA" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 11 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/The BeeKeeper.html">
+                        <img src="imagenesPeliculasIndex/11.png" alt="THE BEEKEEPER"
+                            class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 12 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/El gato con botas.html">
+                        <img src="imagenesPeliculasIndex/12.png" alt="EL gato con botas" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 13 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/Mi pobre angelito.html">
+                        <img src="imagenesPeliculasIndex/13.png" alt="Mi pobre angelito" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 14 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/El planeta de los simios.html">
+                        <img src="imagenesPeliculasIndex/14.png" alt="El planeta de los simios"
+                            class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 15 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/Todo a la vez.html">
+                        <img src="imagenesPeliculasIndex/15.png" alt="Todo a la vez" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 16 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/GodZila & Kong.html">
+                        <img src="imagenesPeliculasIndex/16.png" alt="Godzila & Kong"
+                            class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 17 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/UP.html">
+                        <img src="imagenesPeliculasIndex/17.png" alt="UP" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 18 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/Matrimonio de Mentiras.html">
+                        <img src="imagenesPeliculasIndex/18.png" alt="Una esposa de mentiras"
+                            class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 19 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/Suzume.html">
+                        <img src="imagenesPeliculasIndex/19.png" alt="Suzume" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 20 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/Start Wars.html">
+                        <img src="imagenesPeliculasIndex/20.png" alt="Start Wars" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 21 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/Spiderman Across.html">
+                        <img src="imagenesPeliculasIndex/21.png" alt="Spiderman Across"
+                            class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 22 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/Avatar.html">
+                        <img src="imagenesPeliculasIndex/22.png" alt="Avatar" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 23 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/Padre no hay mas.html">
+                        <img src="imagenesPeliculasIndex/23.png" alt="Padre no hay mas que" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 24 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/Openhaimer.html">
+                        <img src="imagenesPeliculasIndex/24.png" alt="Openhimer" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 25 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/Avengers Endgame.html">
+                        <img src="imagenesPeliculasIndex/25.png" alt="Avengers Endgame" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 26 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="accion">
+                    <a href="InfoPeliculas/Hasta el ultimo hombre.html">
+                        <img src="imagenesPeliculasIndex/26.png" alt="Hasta el ultimo hombre"
+                            class="img-fluid mx-auto movie-img">
+                    </a>
+                </div>
+                <!-- Película 27 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="aventura">
+                    <a href="InfoPeliculas/Harry Potter.html">
+                        <img src="imagenesPeliculasIndex/27.png" alt="Harry Potter" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 28 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="comedia">
+                    <a href="InfoPeliculas/Que paso Ayer.html">
+                        <img src="imagenesPeliculasIndex/28.png" alt="Que paso ayer" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 29 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="drama">
+                    <a href="InfoPeliculas/Mufasa.html">
+                        <img src="imagenesPeliculasIndex/29.png" alt="Mufasa" class="img-fluid movie-img">
+                    </a>
+                </div>
+                <!-- Película 30 -->
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-2 movie-item" data-genre="cienciaficcion">
+                    <a href="InfoPeliculas/Tron Legado.html">
+                        <img src="imagenesPeliculasIndex/30.png" alt="Tron" class="img-fluid movie-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- FiltroPeliculas JS -->
+        <script src="filtrosPeliculas.js"></script>
+        <footer>Creado por los mejores ES-HOLM-SERCH </footer>
+
+</body>
+
+</html>

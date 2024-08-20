@@ -1,0 +1,106 @@
+.container {
+    width: 100%;
+}
+
+#movie-img {
+    max-width: 300px;
+    max-height: 540px;
+    padding-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.navbar-scroll {
+    overflow-y: auto;
+    max-height: 80vh;
+
+}
+
+#movie {
+    background: rgba(180, 180, 180, 0.7);
+    margin-top: 40px;
+}
+
+
+
+.body_page_info {
+    background-color: black;
+}
+
+#prologo {
+    color: white;
+    max-height: 414px;
+    padding-top: 40px;
+
+}
+
+.actores_info {
+    /*background: rgba(255, 255, 255, 0.2);*/
+    text-align: center;
+    background-color: black;
+    padding: auto;
+    max-width: 150px;
+
+}
+
+.actor_imagen {
+    max-width: 150px;
+}
+
+/*
+  Propiedades del titulo de la la galeria
+*/
+#titulo_galeria {
+    padding-top: 30px;
+    padding-bottom: auto;
+}
+
+/*
+    Propiedades del contenedor de las imagenes de la galeria
+*/
+
+#container_img_galery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+  propiedades de cada columna de las imagenes
+*/
+
+#columna_galeria {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    /* Centra el texto */
+    font-style: italic;
+    /* Estilo de fuente en cursiva */
+    color: #666;
+    /* Color de texto gris */
+    font-size: 14px;
+    /* Tamaño de fuente */
+    margin-top: 20px;
+    /* Espacio superior */
+    padding: 10px 0;
+    /* Espaciado interno */
+    background-color: #f9f9f9;
+    /* Color de fondo gris claro */
+}
+
+/*
+    Propiedades div galeria
+*/
+
+.galeria{
+    margin-top: 20px;
+    background: rgba(180, 180, 180, 0.7);
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
