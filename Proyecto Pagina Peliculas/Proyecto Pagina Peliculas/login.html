@@ -2,77 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Películas</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet-login" href="style-login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-light navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="https://ih1.redbubble.net/image.3880202944.8812/st,small,507x507-pad,600x600,f8f8f8.jpg"
-                    alt="" width="80" height="80" class="d-inline-block align-items-center">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacUs.html">Contáctanos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Registrarse</a>
-                    </li>
-                </ul>
+  <section class="vh-100" style="background-color: #e66525;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+          <div class="card" style="border-radius: 1rem;">
+            <div class="row g-0">
+              <div class="col-md-6 col-lg-5 d-none d-md-block">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                  alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+              </div>
+              <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                <div class="card-body p-4 p-lg-5 text-black">
+  
+                  <form>
+  
+                    <div class="d-flex align-items-center mb-3 pb-1">
+                      <i class="fas fa-cubes fa-2x me-3" style="color: #ea7d4b;"></i>
+                      <span class="h1 fw-bold mb-0">PELISHOMESERH</span>
+                    </div>
+  
+                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Inicia Sesión</h5>
+  
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                      <label class="form-label" for="form2Example17">Correo</label>
+                    </div>
+  
+                    <div data-mdb-input-init class="form-outline mb-4">
+                      <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                      <label class="form-label" for="form2Example27">Contraseña</label>
+                    </div>
+  
+                    <div class="pt-1 mb-4">
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg btn-block" type="button">Ingresa</button>
+                    </div>
+  
+                    <a class="small text-muted" href="#!">Olvidaste tu contraseña?</a>
+                    <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes cuenta? <a href="#!"
+                        style="color: #393f81;">Registrate</a></p>
+                    <a href="#!" class="small text-muted">Terminos de uso</a>
+                    <a href="#!" class="small text-muted">Politicas de Privacidad</a>
+                  </form>
+  
+                </div>
+              </div>
             </div>
-
-            <span class="navbar-text">PELISESHOLMSERCH</span>
-
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+  </section>
 
-    <main class="form-signin">
-        <form>
-          <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-      
-          <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-          </div>
-      
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-          <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-        </form>
-      </main>
- 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- FiltroPeliculas JS -->
 
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- FiltroPeliculas JS -->
-        <script src="filtrosPeliculas.js"></script>
-        <footer>Creado por los mejores ES-HOLM-SERCH </footer>
 
 </body>
 
